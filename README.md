@@ -9,7 +9,7 @@ at all as that would be impossible.  Instead it knows that
 the original pre hash text was a four digit characters.
 
 So the application uses four nested loops and tests all 
-10*10*10*10=10000 combinations of four digit, and computes the
+10 * 10 * 10 * 10 = 10000 combinations of four digit, and computes the
 hashes of those values and checks to see if the computed hash
 matches.
 
